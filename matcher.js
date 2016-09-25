@@ -1,4 +1,4 @@
-var re = new RegExp(/I(\s*\S*\s*){0,3}(stand|stood|am|be)\s*(with|by)(\s*\S*\s*){0,3}(yameen|yaameen|yamin|yaamin)/ig)
+var re = new RegExp(/I(\s*\S*\s*){0,5}(stand|stood|am|be)\s*(with|by)(\s*\S*\s*){0,5}(yameen|yaameen|yamin|yaamin)/ig)
 
 module.exports = function(phrase) {
 	var result = re.exec(phrase)
